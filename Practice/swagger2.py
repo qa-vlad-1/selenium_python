@@ -56,10 +56,7 @@ class classOflocators():
             print("element not found")
             print_stack()
 
-    def waitForElement(self, e):
 
-        wait = WebDriverWait(self, timeout=1, poll_frequency=0.5)
-        elementFound = wait.until(EC.element_to_be_clickable())
 
 
 
