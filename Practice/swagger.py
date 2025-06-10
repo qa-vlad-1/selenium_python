@@ -32,7 +32,8 @@ class LoginTests():
 ll = LoginTests()
 ll.test_validLogin()
 
-
+if __name__ == "__main__":
+    unittest.main()
 
 
 

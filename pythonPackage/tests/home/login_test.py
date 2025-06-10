@@ -28,7 +28,6 @@ class LoginTests():
 
 
 
-
 ll = LoginTests()
 ll.test_validLogin()
 
